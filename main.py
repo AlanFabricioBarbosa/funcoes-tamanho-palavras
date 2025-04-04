@@ -11,6 +11,10 @@ word_list = [
 ]
 
 def bigger_word(word_list):
+
+   if not word_list:
+      return "Lista vazia" 
+      
    bigger = word_list[0]
    for word in word_list:
       if len(word) > len(bigger):
@@ -18,6 +22,10 @@ def bigger_word(word_list):
    return bigger
 
 def minor_word(word_list):
+
+    if not word_list:
+      return "Lista vazia"
+      
    minor = word_list[0]
    for word in word_list:
       if len(word) < len(minor):
