@@ -23,7 +23,7 @@ def bigger_word(word_list):
 
 def minor_word(word_list):
 
-    if not word_list:
+   if not word_list:
       return "Lista vazia"
       
    minor = word_list[0]
